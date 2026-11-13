@@ -1,0 +1,19 @@
+{C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/MUX4/Gates.v} {1 {vlog -work work -stats=none {C:\Users\dell\Desktop\MaharaTech Digital Design\Labs\MUX4\Gates.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module andGate
+-- Compiling module orGate
+-- Compiling module INV
+
+Top level modules:
+	andGate
+	orGate
+	INV
+
+} {} {}} {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/MUX4/MUX4.v} {1 {vlog -work work -stats=none {C:\Users\dell\Desktop\MaharaTech Digital Design\Labs\MUX4\MUX4.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX4
+
+Top level modules:
+	MUX4
+
+} {} {}}

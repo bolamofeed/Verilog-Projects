@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/andGate
+vandGate
+!s110 1792498399
+!i10b 1
+!s100 5TVj;SVbg?hAblY>ZcU9P3
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I84>Z2lTSSUX>XXN;=CNCj0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1792498393
+8C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/andGate/andGate.v
+FC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/andGate/andGate.v
+!i122 0
+L0 1 5
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1792498399.000000
+!s107 C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/andGate/andGate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/andGate/andGate.v|
+!i113 1
+o-work work
+tCvgOpt 0
+nand@gate

@@ -1,0 +1,29 @@
+{C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/quiz2.v} {1 {vlog -work work -stats=none {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/quiz2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LOGIC
+
+Top level modules:
+	LOGIC
+
+} {} {}} {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/orGate_tb.v} {1 {vlog -work work -stats=none {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/orGate_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module orGate_tb
+
+Top level modules:
+	orGate_tb
+
+} {} {}} {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/andor.v} {1 {vlog -work work -stats=none {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/andor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module andor
+
+Top level modules:
+	andor
+
+} {} {}} {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/orGate.v} {1 {vlog -work work -stats=none {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/orGate.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module orGate
+
+Top level modules:
+	orGate
+
+} {} {}}

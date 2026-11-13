@@ -1,0 +1,18 @@
+# Compile of FullAdder.v was successful.
+# Compile of FullAdder_tb.v was successful.
+# Compile of UsedGates.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.FullAdder_tb
+# vsim -gui work.FullAdder_tb 
+# Start time: 20:53:25 on Oct 20,2026
+# Loading work.FullAdder_tb
+# Loading work.FullAdder
+# Loading work.xorGate
+# Loading work.notGate
+# Loading work.andGate
+# Loading work.orGate
+add wave sim:/FullAdder_tb/*
+run
+quit -sim
+# End time: 20:57:48 on Oct 20,2026, Elapsed time: 0:04:23
+# Errors: 0, Warnings: 5

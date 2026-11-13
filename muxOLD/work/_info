@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dell/Desktop/MaharaTech Digital Design/Labs
+vandGate
+Z1 !s110 1792511466
+!i10b 1
+!s100 5TVj;SVbg?hAblY>ZcU9P3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IW]COI[GocTG?P[LV6g8Hb3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1792511461
+Z5 8C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/Gates_Used.v
+Z6 FC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/Gates_Used.v
+!i122 0
+L0 1 5
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1792511466.000000
+Z9 !s107 C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/Gates_Used.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/Gates_Used.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+nand@gate
+vINV
+R1
+!i10b 1
+!s100 zZUAS`G>Wk[Aa8Emld<Dz0
+R2
+Ih]E_]<MeP^N8h8[SFCBCC3
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 13 5
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@i@n@v
+vMUX
+!s110 1792511963
+!i10b 1
+!s100 8@NJ0PR2TJc=iS9EDoPUo2
+R2
+I:ZGR6853V@mCk:;:oX43:3
+R3
+R0
+w1792511955
+8C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/MUX.v
+FC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/MUX.v
+!i122 1
+L0 1 8
+R7
+r1
+!s85 0
+31
+!s108 1792511963.000000
+!s107 C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/MUX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/MUX.v|
+!i113 1
+R11
+R12
+n@m@u@x
+vorGate
+R1
+!i10b 1
+!s100 C2A0YEYL:=_Z^6ziHI3L_1
+R2
+I]aZ`DHbS:@?0i1?X>NBTR2
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 7 5
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+nor@gate

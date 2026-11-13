@@ -1,0 +1,9 @@
+vsim -gui work.MUX4
+# vsim -gui work.MUX4 
+# Start time: 21:36:26 on Nov 05,2026
+# Loading work.MUX4
+run
+run
+run
+# End time: 21:37:12 on Nov 05,2026, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 2

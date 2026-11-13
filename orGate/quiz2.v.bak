@@ -1,0 +1,4 @@
+module
+andor andor1(j,k,l,logic);
+andor andor2(logic, m, n, ot2);
+endmodule

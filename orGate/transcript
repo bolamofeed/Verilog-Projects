@@ -1,0 +1,34 @@
+# Compile of andor.v was successful.
+# Compile of andor.v was successful.
+vsim -gui work.andor
+# vsim -gui work.andor 
+# Start time: 18:00:14 on Oct 20,2026
+# Loading work.andor
+add wave sim:/andor/*
+force -freeze sim:/andor/a 0 0, 1 {12 ps} -r 25
+force -freeze sim:/andor/b 0 0, 1 {25 ps} -r 50
+force -freeze sim:/andor/c 0 0, 1 {50 ps} -r 100
+run
+quit -sim
+# End time: 18:27:37 on Oct 20,2026, Elapsed time: 0:27:23
+# Errors: 0, Warnings: 4
+# Compile of quiz2.v failed with 1 errors.
+# Compile of quiz2.v failed with 1 errors.
+# Compile of quiz2.v was successful.
+vsim -gui work.LOGIC
+# vsim -gui work.LOGIC 
+# Start time: 18:36:13 on Oct 20,2026
+# Loading work.LOGIC
+# Loading work.andor
+add wave -r sim:/LOGIC/*
+add wave sim:/LOGIC/*
+force -freeze sim:/LOGIC/n 0 0, 1 {5 ps} -r 10
+force -freeze sim:/LOGIC/m 0 0, 1 {10 ps} -r 20
+force -freeze sim:/LOGIC/l 0 0, 1 {20 ps} -r 40
+force -freeze sim:/LOGIC/k 0 0, 1 {40 ps} -r 80
+force -freeze sim:/LOGIC/j 0 0, 1 {80 ps} -r 160
+run
+quit -sim
+# End time: 18:40:30 on Oct 20,2026, Elapsed time: 0:04:17
+# Errors: 0, Warnings: 5
+cd {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs}

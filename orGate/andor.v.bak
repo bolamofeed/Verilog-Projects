@@ -1,0 +1,7 @@
+module andor (a,b,c,d);
+input a,b,c;
+output d;
+wire ab;
+assign ab = a & b;
+assign d = ab + c;
+endmodule

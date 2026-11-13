@@ -1,0 +1,26 @@
+{C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/FullAdder.v} {1 {vlog -work work -stats=none {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/FullAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullAdder
+
+Top level modules:
+	FullAdder
+
+} {} {}} {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/FullAdder_tb.v} {1 {vlog -work work -stats=none {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/FullAdder_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullAdder_tb
+
+Top level modules:
+	FullAdder_tb
+
+} {} {}} {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/UsedGates.v} {1 {vlog -work work -stats=none {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/UsedGates.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module andGate
+-- Compiling module orGate
+-- Compiling module notGate
+-- Compiling module xorGate
+
+Top level modules:
+	orGate
+	xorGate
+
+} {} {}}

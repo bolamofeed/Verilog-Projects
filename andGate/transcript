@@ -1,0 +1,58 @@
+# Compile of orGate.v was successful.
+vsim work.orGate
+# vsim work.orGate 
+# Start time: 15:57:33 on Oct 20,2026
+# Loading work.orGate
+add wave -position insertpoint -window .main_pane.wave.interior.cs.body.pw.wf sim:/orGate/*
+force -freeze sim:/orGate/a 0 0, 1 {25 ps} -r 50
+force -freeze sim:/orGate/b 0 0, 1 {50 ps} -r 100
+run
+force -freeze sim:/orGate/a 0 0, 1 {12 ps} -r 25
+force -freeze sim:/orGate/b 0 0, 1 {25 ps} -r 50
+run
+quit -sim
+# End time: 16:00:59 on Oct 20,2026, Elapsed time: 0:03:26
+# Errors: 0, Warnings: 7
+# Compile of orGate_tb.v was successful.
+vsim work.orGate_tb
+# vsim work.orGate_tb 
+# Start time: 16:07:00 on Oct 20,2026
+# Loading work.orGate_tb
+# Loading work.orGate
+add wave sim:/orGate_tb/*
+add wave -r sim:/orGate_tb/*
+run
+run
+run
+add wave -r sim:/orGate_tb/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+quit -sim
+# End time: 16:12:48 on Oct 20,2026, Elapsed time: 0:05:48
+# Errors: 0, Warnings: 1
+# Compile of orGate.v was successful.
+vlog -work {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/work} -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:53:21 on Oct 20,2026
+# vlog -reportprogress 300 -work C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/work -refresh -force_refresh 
+# -- Refreshing module orGate
+# -- Refreshing module orGate_tb
+# End time: 17:53:21 on Oct 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/work} -refresh -force_refresh
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:53:21 on Oct 20,2026
+# vcom -reportprogress 300 -work C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/work -refresh -force_refresh 
+# -- Skipping module orGate
+# -- Skipping module orGate_tb
+# End time: 17:53:21 on Oct 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

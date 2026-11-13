@@ -1,0 +1,105 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/andGate
+vandor
+!s110 1792508394
+!i10b 1
+!s100 G=i5ncz4lBg9BZS>iJZ:l3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>:5EcfoVNhO0=?Y[D5D[=3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate
+w1792508387
+8C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/andor.v
+FC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/andor.v
+!i122 4
+L0 1 7
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1792508394.000000
+!s107 C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/andor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/andor.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vLOGIC
+!s110 1792510546
+!i10b 1
+!s100 a8b_A[9UMfHXzHEcaT>U;1
+R0
+IBejc4NzeLX3=1f]E6;B7S3
+R1
+R2
+w1792510540
+8C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/quiz2.v
+FC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/quiz2.v
+!i122 5
+L0 1 6
+R3
+r1
+!s85 0
+31
+!s108 1792510546.000000
+!s107 C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/quiz2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/quiz2.v|
+!i113 1
+R4
+R5
+n@l@o@g@i@c
+vorGate
+!s110 1792507963
+R1
+r1
+!s85 0
+!i10b 1
+!s100 fCCUV3e<h`MQN=;N7Coif1
+ILdIEZS9k:`Ncgg@4D]hJ83
+R2
+w1792500998
+8C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/orGate.v
+FC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/orGate.v
+!i122 2
+L0 1 5
+R3
+31
+!s108 1792507963.000000
+!s107 C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/orGate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/orGate.v|
+!i113 1
+R4
+R5
+nor@gate
+vorGate_tb
+!s110 1792501550
+R1
+r1
+!s85 0
+!i10b 1
+!s100 TYkhVVe:TO7PEN^>L@<YP1
+IP?Z1LdK7MDe^VjWB`KbKL2
+R2
+w1792501546
+8C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/orGate_tb.v
+FC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/orGate_tb.v
+!i122 1
+L0 1 12
+R3
+31
+!s108 1792501550.000000
+!s107 C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/orGate_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/orGate/orGate_tb.v|
+!i113 1
+R4
+R5
+nor@gate_tb

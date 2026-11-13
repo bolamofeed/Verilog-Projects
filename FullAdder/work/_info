@@ -1,0 +1,155 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder
+vandGate
+Z1 !s110 1792518736
+!i10b 1
+!s100 mQoQz^IJ9@H3J4g=:[XY]1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ib6JR4Ac?GNaRhczLg^Ha83
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1792518133
+Z5 8C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/UsedGates.v
+Z6 FC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/UsedGates.v
+!i122 2
+L0 1 7
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1792518736.000000
+!s107 C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/UsedGates.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/UsedGates.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+nand@gate
+vFullAdder
+R1
+!i10b 1
+!s100 ?fJzcG3_AWTOUSVYa:THO3
+R2
+IP1_oF_ifU612j4hW1Re`V3
+R3
+R0
+w1792518131
+8C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/FullAdder.v
+FC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/FullAdder.v
+!i122 0
+L0 1 12
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/FullAdder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/FullAdder.v|
+!i113 1
+R10
+R11
+n@full@adder
+vFullAdder_tb
+R1
+!i10b 1
+!s100 fDHnl?00P]:48H_Xzlb]O2
+R2
+IUk@cBf<VX]n_iB3FS>YDN1
+R3
+R0
+w1792518709
+8C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/FullAdder_tb.v
+FC:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/FullAdder_tb.v
+!i122 1
+L0 1 16
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/FullAdder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/FullAdder_tb.v|
+!i113 1
+R10
+R11
+n@full@adder_tb
+vnotGate
+R1
+!i10b 1
+!s100 E_nZIEIO<=IGEUZa5hd0f1
+R2
+IfAb2=?DN6=8U=ENK73@V]2
+R3
+R0
+R4
+R5
+R6
+!i122 2
+L0 15 7
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/FullAdder/UsedGates.v|
+R9
+!i113 1
+R10
+R11
+nnot@gate
+vorGate
+R1
+!i10b 1
+!s100 EkiKL`HjQeZ=ZF2@J_RJ30
+R2
+IIeI4ff?4SX;Gf:Oz?JUz11
+R3
+R0
+R4
+R5
+R6
+!i122 2
+L0 8 7
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+nor@gate
+vxorGate
+R1
+!i10b 1
+!s100 eC:TTY^:2DNWlddQbczFW0
+R2
+I76=1zo8>JUboB7;P1LCh02
+R3
+R0
+R4
+R5
+R6
+!i122 2
+L0 23 11
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+nxor@gate
