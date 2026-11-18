@@ -1,11 +1,18 @@
-{C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/JohnsonCounter/johnsonCounter.v} {1 {vlog -work work -stats=none {C:\Users\dell\Desktop\MaharaTech Digital Design\Labs\JohnsonCounter\johnsonCounter.v}
+{C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/JohnsonCounter/johnsonCounter.v} {1 {vlog -work work -stats=none {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/JohnsonCounter/johnsonCounter.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module johnsonCounter
 
 Top level modules:
 	johnsonCounter
 
-} {} {}} {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/JohnsonCounter/flipFlop.v} {1 {vlog -work work -stats=none {C:\Users\dell\Desktop\MaharaTech Digital Design\Labs\JohnsonCounter\flipFlop.v}
+} {} {}} {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/JohnsonCounter/johnsonCOunter_tb.v} {1 {vlog -work work -stats=none {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/JohnsonCounter/johnsonCOunter_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module johnsonCounter_tb
+
+Top level modules:
+	johnsonCounter_tb
+
+} {} {}} {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/JohnsonCounter/flipFlop.v} {1 {vlog -work work -stats=none {C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/JohnsonCounter/flipFlop.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module flipFlop
 

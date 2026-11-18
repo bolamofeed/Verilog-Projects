@@ -1,149 +1,26 @@
 # Compile of flipFlop.v was successful.
 # Compile of johnsonCounter.v was successful.
+# Compile of johnsonCounter_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+# 0 compiles, 3 failed with no errors.
+# Error opening C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/flipFlop.v
+# Path name 'C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/flipFlop.v' doesn't exist.
+# Error opening C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/flipFlop.v
+# Path name 'C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/flipFlop.v' doesn't exist.
+# Error opening C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/flipFlop.v
+# Path name 'C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/flipFlop.v' doesn't exist.
+# Error opening C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/johnsonCounter.v
+# Path name 'C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/johnsonCounter.v' doesn't exist.
+# Error opening C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/johnsonCounter.v
+# Path name 'C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/johnsonCounter.v' doesn't exist.
+# Error opening C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/johnsonCounter_tb.v
+# Path name 'C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/johnsonCounter_tb.v' doesn't exist.
+# Error opening C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/johnsonCounter_tb.v
+# Path name 'C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/johnsonCounter_tb.v' doesn't exist.
+# Error opening C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/johnsonCounter_tb.v
+# Path name 'C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/---JohnsonCounter/johnsonCounter_tb.v' doesn't exist.
+# Compile of johnsonCounter.v was successful.
+# Compile of johnsonCounter.v was successful.
 # Compile of flipFlop.v was successful.
-# Compile of johnsonCounter.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.johnsonCounter
-# vsim -gui work.johnsonCounter 
-# Start time: 15:05:21 on Nov 15,2026
-# Loading work.johnsonCounter
-# Loading work.flipFlop
-add wave sim:/johnsonCounter/*
-force -freeze sim:/johnsonCounter/rstn 0 0
-force -freeze sim:/johnsonCounter/clk 0 0, 1 {5 ps} -r 10
-run
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-force -freeze sim:/johnsonCounter/rstn 1 0
-force -freeze sim:/johnsonCounter/clk 0 0, 1 {5 ps} -r 10
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-quit -sim
-# End time: 15:09:11 on Nov 15,2026, Elapsed time: 0:03:50
-# Errors: 0, Warnings: 1
-# Compile of johnsonCounter.v was successful.
-vsim -gui work.johnsonCounter
-# vsim -gui work.johnsonCounter 
-# Start time: 15:09:38 on Nov 15,2026
-# Loading work.johnsonCounter
-# Loading work.flipFlop
-add wave sim:/johnsonCounter/*
-force -freeze sim:/johnsonCounter/rstn 0 0, 1 {25 ps} -r 50
-force -freeze sim:/johnsonCounter/clk 0 0, 1 {5 ps} -r 10
-run
-noforce sim:/johnsonCounter/rstn
-force -freeze sim:/johnsonCounter/rstn 1 0
-run
-force -freeze sim:/johnsonCounter/rstn 0 0
-force -freeze sim:/johnsonCounter/rstn St0 0
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-force -freeze sim:/johnsonCounter/rstn 0 0
-force -freeze sim:/johnsonCounter/clk 1 0, 0 {5 ps} -r 10
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-force -freeze sim:/johnsonCounter/rstn 1 0
-run
-quit -sim
-# End time: 15:14:57 on Nov 15,2026, Elapsed time: 0:05:19
-# Errors: 0, Warnings: 1
-# Compile of johnsonCounter.v was successful.
-vsim -gui work.johnsonCounter
-# vsim -gui work.johnsonCounter 
-# Start time: 15:15:14 on Nov 15,2026
-# Loading work.johnsonCounter
-# Loading work.flipFlop
-add wave sim:/johnsonCounter/*
-force -freeze sim:/johnsonCounter/rstn 0 0, 1 {25 ps} -r 50
-force -freeze sim:/johnsonCounter/clk 0 0, 1 {5 ps} -r 10
-run
-force -freeze sim:/johnsonCounter/rstn 0 0
-force -freeze sim:/johnsonCounter/rstn 1 0
-run
-quit -sim
-# End time: 15:20:32 on Nov 15,2026, Elapsed time: 0:05:18
-# Errors: 0, Warnings: 2
-# Compile of johnsonCounter_tb.v was successful.
-vsim -gui work.johnsonCounter_tb
-# vsim -gui work.johnsonCounter_tb 
-# Start time: 15:35:13 on Nov 15,2026
-# Loading work.johnsonCounter_tb
-# Loading work.johnsonCounter
-# Loading work.flipFlop
-# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
-#    Time: 0 ps  Iteration: 0  Instance: /johnsonCounter_tb/JC1 File: C:/Users/dell/Desktop/MaharaTech Digital Design/Labs/JohnsonCounter/johnsonCounter_tb.v Line: 21
-# Error loading design
-# End time: 15:35:13 on Nov 15,2026, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 2
-# Compile of johnsonCounter_tb.v failed with 1 errors.
-# Compile of johnsonCounter_tb.v was successful.
-vsim -gui work.johnsonCounter_tb
-# vsim -gui work.johnsonCounter_tb 
-# Start time: 15:39:14 on Nov 15,2026
-# Loading work.johnsonCounter_tb
-# Loading work.johnsonCounter
-# Loading work.flipFlop
-run
-add wave -r /*
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-add wave -position insertpoint sim:/johnsonCounter_tb/*
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-quit -sim
-# End time: 15:40:51 on Nov 15,2026, Elapsed time: 0:01:37
-# Errors: 0, Warnings: 1
-vlog -work work {C:\Users\dell\Desktop\MaharaTech Digital Design\Labs\JohnsonCounter\johnsonCounter_tb.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:41:03 on Nov 15,2026
-# vlog -reportprogress 300 -work work C:\Users\dell\Desktop\MaharaTech Digital Design\Labs\JohnsonCounter\johnsonCounter_tb.v 
-# -- Compiling module johnsonCounter_tb
-# 
-# Top level modules:
-# 	johnsonCounter_tb
-# End time: 15:41:03 on Nov 15,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.johnsonCounter_tb
-# vsim work.johnsonCounter_tb 
-# Start time: 15:41:12 on Nov 15,2026
-# Loading work.johnsonCounter_tb
-# Loading work.johnsonCounter
-# Loading work.flipFlop
-add wave sim:/johnsonCounter_tb/*
-run
-run
-restart
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-quit -sim
-# End time: 15:46:55 on Nov 15,2026, Elapsed time: 0:05:43
-# Errors: 0, Warnings: 1
-vlog -work work {C:\Users\dell\Desktop\MaharaTech Digital Design\Labs\JohnsonCounter\johnsonCounter_tb.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:46:58 on Nov 15,2026
-# vlog -reportprogress 300 -work work C:\Users\dell\Desktop\MaharaTech Digital Design\Labs\JohnsonCounter\johnsonCounter_tb.v 
-# -- Compiling module johnsonCounter_tb
-# 
-# Top level modules:
-# 	johnsonCounter_tb
-# End time: 15:46:58 on Nov 15,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.johnsonCounter_tb
-# vsim work.johnsonCounter_tb 
-# Start time: 15:47:00 on Nov 15,2026
-# Loading work.johnsonCounter_tb
-# Loading work.johnsonCounter
-# Loading work.flipFlop
-add wave sim:/johnsonCounter_tb/*
-run
-quit -sim
-# End time: 15:48:59 on Nov 15,2026, Elapsed time: 0:01:59
-# Errors: 0, Warnings: 1
+# Compile of johnsonCOunter_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
